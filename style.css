@@ -1,0 +1,154 @@
+head {
+    display: none;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    background-color: #EBEDEF;
+    font-family: 'Merriweather', serif;
+    color: #404042;
+    font-size: 12px;
+    line-height: 20px;
+    background-image: url("images/abstract1.jpg")
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: #F2552A;
+
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  color: #102332;
+  line-height: 18px;
+
+}
+
+h3 {
+  font-family: 'KoHo', sans-serif;
+   font-size: 18px;
+   color: #18121D;
+   line-height: 18px;
+
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+a{
+  color: #F2552A;
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.resize-image{
+  width: 200px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+  padding-left: 0px
+}
+
+.btn-social {
+    background-color: #F2552A;
+    color: white;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
