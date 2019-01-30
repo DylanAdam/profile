@@ -29,11 +29,19 @@ h2 {
 }
 
 h3 {
-  font-family: 'KoHo', sans-serif;
+   font-family: 'KoHo', sans-serif;
    font-size: 18px;
    color: #18121D;
    line-height: 18px;
 
+}
+
+p{
+  font-size: 10px;
+  text-align:left;
+  text-align:justify;
+  margin: 10px;
+  line-height: 18px;
 }
 
 div {
@@ -125,6 +133,39 @@ a{
     font-weight: 400;
     padding: 5px;
     border-radius: 8px;
+}
+
+#sidebar {
+    background-color: #5E5E5E;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 80px;
+    text-align: center;
+
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: calc(50VH - 92px);
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: list-item;
+
+}
+
+#sidebar a {
+    font-size: 25px;
+    color: white;
+}
+
+#content {
+    margin-left: 120px;
 }
 
 @media (max-width: 960px) {

@@ -8,12 +8,28 @@
   <title>My profile</title>
 </head>
 <body>
+  <div id="sidebar">
+    <ul>
+      <li> <a href="#summary">
+      <i class="fas fa-info"></i>
+    </a>
+    </li>
+      <li> <a href="#favorite-movies">
+      <i class="fas fa-film"></i>
+      </a>
+    </li>
+      <li> <a href="#about">
+      <i class="fas fa-code"></i>
+      </a>
+    </li>
+    </ul>
+  </div>
   <div class="container">
-    <div class="card text-center">
+    <div class="card text-center" id="summary">
       <img src="images/photo_cv.jpg" alt="my profile picture" class="img-circle resize-image">
       <h1>Dylan Adam </h1>
       <h2>Recently graduated from an Msc in International business</h2>
-      <p>Currently studying <em>Htlm and Css</em></p>
+       Currently studying <em>Htlm and Css</em>
     <ul class="list-inline">
     <li>
       <a href="https://www.facebook.com/dylan.adam.64" class="btn-social hvr-bounce-in">
@@ -27,7 +43,7 @@
     </li>
   </ul>
 </div>
-  <div class="card text-center">
+  <div class="card text-center" id="favorite-movies">
   <h2> My favorite movies</h2>
   <table>
     <tbody>
@@ -69,7 +85,7 @@
   </table>
 
     </div>
-     <div class="card text-center">
+     <div class="card text-center" id="about">
           <h2> About this page</h2>
           This page has been coded during the
           <a href="https://www.lewagon.com/" target="_blank" class="hvr-bounce-in"> Full stack program @Le Wagon</a>
